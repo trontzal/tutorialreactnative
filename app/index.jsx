@@ -11,10 +11,6 @@ const Home = () => {
 
       <Text style={{ marginTop:10, marginBottom:30}}>Reading List App</Text>
 
-      <View style={styles.card}>
-        <Text>Hello, this is a card</Text>
-      </View>
-
     </View>
   )
 }
@@ -34,12 +30,5 @@ const styles = StyleSheet.create({
   },
   img:{
     marginVertical: 20
-  },
-
-  card:{
-    backgroundColor: '#eee',
-    padding: 20,
-    borderRadius: 5,
-    boxShadow: '4px 4px rgba(0,0,0,0.1)'
   }
 })
